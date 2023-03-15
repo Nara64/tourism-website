@@ -5,22 +5,108 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.bunny.net/css?family=noto-sans-jp:100,300,400,500,700,900" rel="stylesheet" />
     <title>Office de Tourisme du Pays de Ribeauvillé et Riquewihr en Alsace</title>
 </head>
 
 <body>
     <header>
-        <img src="image/fr.png" alt="Version Française">
-        <img src="image/de.png" alt="Deutsche Version">
-        <img src="image/en.png" alt="English Version">
-        <a target="_blank" href="https://www.facebook.com/paysribeauvilleriquewihr/">
-            <img src="image/facebook.svg" alt="Facebook">
-        </a>
-        <a target="_blank" href="https://www.instagram.com/visitribeauvilleriquewihr/">
-            <img src="image/instagram.svg" alt="Instagram">
-        </a>
+        <!-- Header with grey color, quick navigation et little logo-->
+        <div class="topline">
+            <div class="language">
+                <a href="https://www.ribeauville-riquewihr.com/">
+                    <img src="image/fr.png" alt="Version Française">
+                </a>
+                <a href="https://www.ribeauville-riquewihr.com/de/">
+                    <img src="image/de.png" alt="Deutsche Version">
+                </a>
+                <a href="https://www.ribeauville-riquewihr.com/en/">
+                    <img src="image/en.png" alt="English Version">
+                </a>
+            </div>
+            <div class="social">
+                <a target="_blank" href="https://www.facebook.com/paysribeauvilleriquewihr/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+                        <path fill="currentColor"
+                            d="M14.5 0h-13C.675 0 0 .675 0 1.5v13c0 .825.675 1.5 1.5 1.5H8V9H6V7h2V6c0-1.653 1.347-3 3-3h2v2h-2c-.55 0-1 .45-1 1v1h3l-.5 2H10v7h4.5c.825 0 1.5-.675 1.5-1.5v-13c0-.825-.675-1.5-1.5-1.5z" />
+                    </svg>
+                </a>
+                <a target="_blank" href="https://www.instagram.com/visitribeauvilleriquewihr/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M20.936 7.564a6.06 6.06 0 0 0-.377-2.039a3.4 3.4 0 0 0-.821-1.263a3.398 3.398 0 0 0-1.263-.82a6.094 6.094 0 0 0-2.039-.378C15.278 3.012 14.931 3 12 3c-2.93 0-3.279.01-4.436.064a6.06 6.06 0 0 0-2.039.377a3.39 3.39 0 0 0-1.263.821a3.425 3.425 0 0 0-.82 1.264a6.096 6.096 0 0 0-.378 2.038C3.012 8.723 3 9.07 3 12.001s.01 3.279.064 4.436a6.06 6.06 0 0 0 .378 2.039c.175.476.456.908.821 1.261a3.41 3.41 0 0 0 1.263.822c.652.242 1.342.37 2.038.377C8.721 20.99 9.07 21 12 21s3.28-.01 4.436-.064a6.059 6.059 0 0 0 2.039-.377a3.635 3.635 0 0 0 2.084-2.083a6.09 6.09 0 0 0 .377-2.04C20.99 15.28 21 14.932 21 12s-.01-3.278-.064-4.436z"
+                            opacity=".5" />
+                        <path fill="currentColor"
+                            d="M17.793 7.618a2.459 2.459 0 0 0-1.41-1.41a4.132 4.132 0 0 0-1.38-.256c-.784-.036-1.02-.044-3.003-.044s-2.218.008-3 .044a4.1 4.1 0 0 0-1.38.255c-.649.25-1.16.762-1.41 1.41c-.164.443-.25.91-.256 1.38c-.036.784-.043 1.019-.043 3.003s.007 2.22.043 3.003c.005.471.092.938.255 1.38a2.46 2.46 0 0 0 1.41 1.41c.443.163.91.25 1.38.255c.783.036 1.018.043 3.002.043s2.22-.007 3.003-.043a4.104 4.104 0 0 0 1.38-.256a2.46 2.46 0 0 0 1.41-1.41c.164-.441.25-.908.256-1.38c.036-.783.043-1.018.043-3.002s-.007-2.219-.043-3.002a4.103 4.103 0 0 0-.256-1.38zM12 15.815a3.815 3.815 0 1 1 0-7.63a3.815 3.815 0 0 1 0 7.63zm3.966-6.89a.892.892 0 0 1 0-1.783h.001a.892.892 0 0 1 .005 1.783h-.006z" />
+                        <path fill="currentColor"
+                            d="M12 9.523A2.477 2.477 0 1 0 14.477 12a2.477 2.477 0 0 0-2.476-2.477z" />
+                        <path fill="currentColor"
+                            d="M21.93 7.07a6.734 6.734 0 0 0-.42-2.264a3.779 3.779 0 0 0-.913-1.403a3.776 3.776 0 0 0-1.403-.913a6.771 6.771 0 0 0-2.265-.42C15.642 2.014 15.257 2 12 2c-3.255 0-3.642.012-4.928.07a6.76 6.76 0 0 0-2.265.42a3.76 3.76 0 0 0-1.403.913a3.806 3.806 0 0 0-.913 1.403a6.773 6.773 0 0 0-.42 2.265C2.014 8.358 2 8.744 2 12.001s.012 3.643.071 4.929c.01.773.151 1.54.42 2.265c.195.53.507 1.01.912 1.402a3.79 3.79 0 0 0 1.403.913a6.732 6.732 0 0 0 2.265.42c1.286.059 1.673.07 4.929.07c3.257 0 3.643-.012 4.93-.07a6.732 6.732 0 0 0 2.264-.42a4.04 4.04 0 0 0 2.316-2.315c.268-.726.41-1.492.42-2.265c.058-1.287.07-1.674.07-4.93c0-3.257-.012-3.642-.07-4.93zm-2.545 7.993a5.435 5.435 0 0 1-.345 1.804a3.8 3.8 0 0 1-2.173 2.173a5.45 5.45 0 0 1-1.803.345c-.793.037-1.046.045-3.064.045s-2.27-.009-3.063-.045a5.453 5.453 0 0 1-1.803-.345a3.799 3.799 0 0 1-2.174-2.173a5.45 5.45 0 0 1-.345-1.804C4.58 14.271 4.57 14.018 4.57 12s.009-2.271.045-3.063a5.45 5.45 0 0 1 .345-1.804A3.798 3.798 0 0 1 7.134 4.96a5.45 5.45 0 0 1 1.803-.345c.793-.037 1.047-.045 3.064-.045s2.27.009 3.063.045a5.442 5.442 0 0 1 1.804.345a3.8 3.8 0 0 1 2.172 2.173c.217.578.333 1.187.345 1.804c.036.792.045 1.045.045 3.063s-.009 2.27-.045 3.063z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="phone">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="m19.23 15.26l-2.54-.29a1.99 1.99 0 0 0-1.64.57l-1.84 1.84a15.045 15.045 0 0 1-6.59-6.59l1.85-1.85c.43-.43.64-1.03.57-1.64l-.29-2.52a2.001 2.001 0 0 0-1.99-1.77H5.03c-1.13 0-2.07.94-2 2.07c.53 8.54 7.36 15.36 15.89 15.89c1.13.07 2.07-.87 2.07-2v-1.73c.01-1.01-.75-1.86-1.76-1.98z" />
+                </svg>
+                <a href="tel:0389732323">+33 (0)3 89 73 23 23
+                </a>
+            </div>
+            <div class="star">
+                <a target="_blank" href="https://www.ribeauville-riquewihr.com/duathlon.htm">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="m19.65 9.04l-4.84-.42l-1.89-4.45c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18l-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5l4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.73l3.67-3.18c.67-.58.32-1.68-.56-1.75zM12 15.4l-3.76 2.27l1-4.28l-3.32-2.88l4.38-.38L12 6.1l1.71 4.04l4.38.38l-3.32 2.88l1 4.28L12 15.4z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="group">
+                <a href="https://www.ribeauville-riquewihr.com/groupes/sejours-prix-forfaitaires.htm"
+                    target="_blank">GROUPES</a>
+                <a href="https://www.ribeauville-riquewihr.com/espace-presse.htm" target="_blank">PRESSE</a>
+                <a href="https://www.ribeauville-riquewihr.com/espace-partenaires.htm" target="_blank">PARTENAIRES</a>
+            </div>
+            <div class="user">
+                <a target="_blank"
+                    href="https://reservation.ribeauville-riquewihr.com/identification.html?acces=forbidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 20 20">
+                        <path fill="currentColor"
+                            d="M10 8c1.7 0 3.06-1.35 3.06-3S11.7 2 10 2S6.94 3.35 6.94 5S8.3 8 10 8zm0 2c-2.8 0-5.06-2.24-5.06-5S7.2 0 10 0s5.06 2.24 5.06 5s-2.26 5-5.06 5zm-7 8h14v-1.33c0-1.75-2.31-3.56-7-3.56s-7 1.81-7 3.56V18zm7-6.89c6.66 0 9 3.33 9 5.56V20H1v-3.33c0-2.23 2.34-5.56 9-5.56z" />
+                    </svg>
+                </a>
+                <a target="_blank" href="https://reservation.ribeauville-riquewihr.com/booking?action=panier&cid=1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512">
+                        <circle cx="176" cy="416" r="16" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="32" />
+                        <circle cx="400" cy="416" r="16" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="32" />
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="32" d="M48 80h64l48 272h256" />
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="32"
+                            d="M160 288h249.44a8 8 0 0 0 7.85-6.43l28.8-144a8 8 0 0 0-7.85-9.57H128" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <!--integration nav bar-->
+        <div class="menu">
+            <a href="https://www.ribeauville-riquewihr.com/">
+                <img src="image/logo-ribeauville.png" alt="Office de Tourisme Pays de Ribeauvillé et Riquewihr">
+            </a>
+            <nav>
+                <ul>
+                    <li>Découvrir</li>
+                    <li>Séjourner</li>
+                    <li>Se régaler</li>
+                    <li>Se divertir</li>
+                    <li>Infos pratiques</li>
+                </ul>
+            </nav>
+        </div>
     </header>
-
 </body>
 
 </html>

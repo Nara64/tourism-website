@@ -1,0 +1,79 @@
+body {
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1.3;
+    height: auto;
+    position: relative;
+    font-weight: 400;
+}
+
+header {
+    width: 100%;
+    position: relative;
+    float: left;
+    z-index: 11;
+}
+
+.topline {
+background: rgba(127,143,166,1);
+width: 100%;
+float: left;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: row;
+}
+
+.language {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+}
+
+.social {
+    display: flex;
+    padding: 0 30px;    
+}
+
+.social a {
+    color: white;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+    font-weight: 900; 
+    color: white; 
+    font-size: 160%; 
+}
+
+.phone a {
+color: white;
+}
+
+.star {
+    display: flex;
+}
+
+.star a {
+    color: white;
+}
+
+.group {
+    display: flex;
+}
+
+.group a {
+    color: white;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+}
+
+.user a {
+    color: white;
+}
