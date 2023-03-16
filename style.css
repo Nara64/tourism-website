@@ -13,28 +13,27 @@ header {
     width: 100%;
     position: relative;
     float: left;
-    z-index: 11;
 }
 
 .topline {
-background: rgba(127,143,166,1);
-width: 100%;
-float: left;
-display: flex;
-justify-content: space-around;
-align-items: center;
-flex-direction: row;
+    background: rgba(127, 143, 166, 1);
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
 }
 
 .language {
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 .social {
     display: flex;
-    padding: 0 30px;    
+    padding: 0 30px;
 }
 
 .social a {
@@ -44,13 +43,14 @@ justify-content: flex-start;
 .phone {
     display: flex;
     flex-direction: row;
-    font-weight: 900; 
-    color: white; 
-    font-size: 160%; 
+    font-weight: 900;
+    color: white;
+    font-size: 160%;
 }
 
 .phone a {
-color: white;
+    color: white;
+    text-decoration: none;
 }
 
 .star {
@@ -67,6 +67,17 @@ color: white;
 
 .group a {
     color: white;
+    display: block;
+    margin: 0 1rem 0 0;
+    text-decoration: none;
+}
+
+.group a:hover {
+    transform: scale(1.2);
+}
+
+.search {
+    color: white;
 }
 
 .user {
@@ -76,4 +87,37 @@ color: white;
 
 .user a {
     color: white;
+}
+
+.menu {
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.menu a {
+    color: #830000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a {
+    display: block;
+    margin: 0 4rem 0 0;
+    text-decoration: none;
+    font-size: 130%;
+}
+
+.panoramic {
+    
 }

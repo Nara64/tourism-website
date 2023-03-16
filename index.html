@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <!-- Header with grey color, quick navigation et little logo-->
+        <!-- Header with grey color, quick navigation and little logo-->
         <div class="topline">
             <div class="language">
                 <a href="https://www.ribeauville-riquewihr.com/">
@@ -68,6 +68,15 @@
                 <a href="https://www.ribeauville-riquewihr.com/espace-presse.htm" target="_blank">PRESSE</a>
                 <a href="https://www.ribeauville-riquewihr.com/espace-partenaires.htm" target="_blank">PARTENAIRES</a>
             </div>
+            <div class="search">
+                <form>
+                    <input type="search" name="q" placeholder="Rechercher">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256">
+                        <path fill="currentColor"
+                            d="M168 112a56 56 0 1 1-56-56a56 56 0 0 1 56 56Zm61.66 117.66a8 8 0 0 1-11.32 0l-50.06-50.07a88 88 0 1 1 11.32-11.31l50.06 50.06a8 8 0 0 1 0 11.32ZM112 184a72 72 0 1 0-72-72a72.08 72.08 0 0 0 72 72Z" />
+                    </svg>
+                </form>
+            </div>
             <div class="user">
                 <a target="_blank"
                     href="https://reservation.ribeauville-riquewihr.com/identification.html?acces=forbidden">
@@ -93,20 +102,38 @@
         </div>
         <!--integration nav bar-->
         <div class="menu">
-            <a href="https://www.ribeauville-riquewihr.com/">
-                <img src="image/logo-ribeauville.png" alt="Office de Tourisme Pays de Ribeauvillé et Riquewihr">
-            </a>
-            <nav>
-                <ul>
-                    <li>Découvrir</li>
-                    <li>Séjourner</li>
-                    <li>Se régaler</li>
-                    <li>Se divertir</li>
-                    <li>Infos pratiques</li>
-                </ul>
-            </nav>
+            <div class="logo">
+                <a href="https://www.ribeauville-riquewihr.com/">
+                    <img src="image/logo-ribeauville.png" alt="Office de Tourisme Pays de Ribeauvillé et Riquewihr">
+                </a>
+            </div>
+            <div class="navigation">
+                <nav>
+                    <ul>
+                        <li><a href="https://www.ribeauville-riquewihr.com/decouvrir.htm">Découvrir</a></li>
+                        <li><a href="https://www.ribeauville-riquewihr.com/hebergements.htm">Séjourner</a></li>
+                        <li><a href="https://www.ribeauville-riquewihr.com/gastronomie.htm">Se régaler</a></li>
+                        <li><a href="https://www.ribeauville-riquewihr.com/manifestations.htm">Se divertir</a></li>
+                        <li><a href="https://www.ribeauville-riquewihr.com/office-tourisme.htm">Infos pratiques</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="map">
+                <a href="http://carto.tourisme-alsace.info/dotnet/LEI.Cartographie/default.aspx?cfgid=27817">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 48 48">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            d="M23.523 5.5H7.5a2 2 0 0 0-2 2v33a2 2 0 0 0 2 2h33a2 2 0 0 0 2-2v-33a2 2 0 0 0-2-2h-4.948" />
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            d="M29.538 3.367a9.554 9.554 0 0 0-9.554 9.554c0 7.478 7.313 16.49 9.207 18.7a.577.577 0 0 0 .881-.005c1.862-2.216 9.02-11.222 9.02-18.694a9.554 9.554 0 0 0-9.554-9.555Zm0 13.125a3.57 3.57 0 1 1 3.57-3.57a3.57 3.57 0 0 1-3.57 3.57Zm5.252 8.566l7.71-1.188m-37 5.702l19.82-3.055m-7.412 1.143L14.168 5.5" />
+                    </svg>
+                </a>
+            </div>
         </div>
     </header>
+    <!--panoramic picture with button and integration a text in front of the picture-->
+    <div class="panoramic">
+        <img src="image/banner-homepage.jpg" alt="Les amandiers du Mandelberg">
+    </div>
 </body>
 
 </html>
