@@ -302,7 +302,98 @@ nav ul li a {
 .phone2 {
     position: absolute;
     margin-left: 12rem;
-    margin-top: 3rem;
-    
+    margin-top: 3rem; 
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
+.phonebis {
+    background-color: #fff;
+    color: #8d1731;
+    border: none;
+}
+
+.phone2 a {
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1.8;
+    padding: 0 10px;
+    font-size: 1rem;
+    text-align: center;
+    color:#8d1731; 
+    background-color : white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.mapbis { 
+    background-color: #fff;
+    border: none;
+}
+
+.map2 {
+    color: #fff;
+    margin-left: 35rem;
+    margin-top: 7rem;
+    position: absolute;
+}
+
+.map2 a {
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1.8;
+    padding: 0 10px;
+    font-size: 1rem;
+    text-align: center;
+    color:#8d1731; 
+    background-color : white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.brochurebis { 
+    background-color: #fff;
+    border: none;
+}
+
+.brochure {
+    color: #fff;
+    margin-left: 55rem;
+    margin-top: 7rem;
+    position: absolute;
+}
+
+.brochure a {
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1.8;
+    padding: 0 10px;
+    font-size: 1rem;
+    text-align: center;
+    color:#8d1731; 
+    background-color : white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.lieselbis { 
+    background-color: #fff;
+    border: none;
+}
+
+.liesel {
+    color: #fff;
+    margin-left: 68rem;
+    margin-top: 2rem;
+    position: absolute;
+}
+
+.liesel a {
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1.8;
+    padding: 0 10px;
+    font-size: 1rem;
+    text-align: center;
+    color:#8d1731; 
+    background-color : white;
+    text-decoration: none;
+    font-weight: bold;
+}
