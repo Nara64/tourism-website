@@ -211,6 +211,7 @@ nav ul li a {
 
 .read-article {
     background-color: #8d1731;
+    border: none;
 }
 
 .button a {
@@ -413,6 +414,16 @@ nav ul li a {
 
 /*instagram*/
 
+.instagram-banner {
+    text-align: center;
+}
+
+.instagram-banner a {
+    text-decoration: none;
+    color: black;
+    font-size: 20.8px;
+}
+
 .instagram {
     background-color: #8d1731;
     color: #fff;
@@ -442,3 +453,57 @@ nav ul li a {
     margin-bottom: 0.2rem;
     gap: 0.2rem;
 }
+
+/*footer with 2 backgrounds, and buttons contact*/
+
+footer {
+    width: 100%;
+    height: 20rem;
+    float: left;
+    align-items: center;
+    background-image: url(image/fd-footer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background-footer {
+    display: flex;
+    width: 100%;
+    height: 20rem;
+    background-image: url(image/footer-map.svg);
+    background-color: rgba(141,23,49,.8);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+    color: #fff;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-weight: bold;
+    font-size: 20px;
+    gap: 0.2rem;
+    margin-left: 8rem;
+    margin-top: 5rem;
+}
+
+.callto, .mailto {
+    background-color: #fff;
+    border: none;
+}
+
+.callto a, .mailto a {
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1.8;
+    padding: 0 10px;
+    font-size: 1rem;
+    text-align: center;
+    color: #8d1731;
+    background-color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
