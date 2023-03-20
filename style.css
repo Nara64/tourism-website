@@ -9,6 +9,8 @@ body {
     font-weight: 400;
 }
 
+/*header*/
+
 header {
     width: 100%;
 }
@@ -36,6 +38,7 @@ header {
 .social {
     display: flex;
     padding: 0 30px;
+    gap: 5px;
 }
 
 .social a {
@@ -91,6 +94,8 @@ header {
     color: white;
 }
 
+/*navigation bar*/
+
 .menu {
     width: 100%;
     display: flex;
@@ -118,6 +123,8 @@ nav ul li a {
     text-decoration: none;
     font-size: 130%;
 }
+
+/*panoramic*/
 
 .panoramic {
     width: 100%;
@@ -159,6 +166,8 @@ nav ul li a {
 .right :hover {
     opacity: 0.8;
 }
+
+/*script*/
 
 .script {
     width: 100%;
@@ -215,6 +224,8 @@ nav ul li a {
     background-color: #8d1731;
     text-decoration: none;
 }
+
+/*4 pictutes with link*/
 
 .container1 {
     display: flex;
@@ -289,6 +300,8 @@ nav ul li a {
     text-decoration: none;
 }
 
+/*banner trip*/
+
 .banner-trip {
     width: 100%;
     height: 20rem;
@@ -302,7 +315,7 @@ nav ul li a {
 .phone2 {
     position: absolute;
     margin-left: 12rem;
-    margin-top: 3rem; 
+    margin-top: 3rem;
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
@@ -320,13 +333,13 @@ nav ul li a {
     padding: 0 10px;
     font-size: 1rem;
     text-align: center;
-    color:#8d1731; 
-    background-color : white;
+    color: #8d1731;
+    background-color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
-.mapbis { 
+.mapbis {
     background-color: #fff;
     border: none;
 }
@@ -344,13 +357,13 @@ nav ul li a {
     padding: 0 10px;
     font-size: 1rem;
     text-align: center;
-    color:#8d1731; 
-    background-color : white;
+    color: #8d1731;
+    background-color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
-.brochurebis { 
+.brochurebis {
     background-color: #fff;
     border: none;
 }
@@ -368,13 +381,13 @@ nav ul li a {
     padding: 0 10px;
     font-size: 1rem;
     text-align: center;
-    color:#8d1731; 
-    background-color : white;
+    color: #8d1731;
+    background-color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
-.lieselbis { 
+.lieselbis {
     background-color: #fff;
     border: none;
 }
@@ -392,8 +405,40 @@ nav ul li a {
     padding: 0 10px;
     font-size: 1rem;
     text-align: center;
-    color:#8d1731; 
-    background-color : white;
+    color: #8d1731;
+    background-color: white;
     text-decoration: none;
     font-weight: bold;
+}
+
+/*instagram*/
+
+.instagram {
+    background-color: #8d1731;
+    color: #fff;
+    margin-top: 19rem;
+    line-height: 3;
+    margin-left: 10.7rem;
+    margin-right: 10.7rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.carousel1 {
+    display: flex;
+    height: 15.35rem;
+    margin-left: 10.7rem;
+    margin-right: 10.7rem;
+    margin-bottom: 0.2rem;
+    gap: 0.2rem;
+}
+
+.carousel2 {
+    display: flex;
+    height: 15.35rem;
+    margin-left: 10.7rem;
+    margin-right: 10.7rem;
+    margin-bottom: 0.2rem;
+    gap: 0.2rem;
 }
