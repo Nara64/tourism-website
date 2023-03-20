@@ -288,3 +288,21 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
+
+.banner-trip {
+    width: 100%;
+    height: 20rem;
+    float: left;
+    align-items: center;
+    background-image: url(image/banner-trip.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.phone2 {
+    position: absolute;
+    margin-left: 12rem;
+    margin-top: 3rem;
+    
+}
+
