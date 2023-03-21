@@ -274,11 +274,13 @@ nav ul li a {
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
+
 }
 
 .phonebis, .mapbis, .brochurebis, .lieselbis {
     background-color: #fff;
     border: none;
+    color: #8d1731;
 }
 
 .phone2 a, .map2 a, .brochure a, .liesel a {
@@ -365,7 +367,7 @@ footer {
     width: 100%;
     height: 22rem;
     background-image: url(image/footer-map.svg);
-    background-color: rgba(141,23,49,.8);
+    background-color: rgba(141, 23, 49, .8);
     background-repeat: no-repeat;
     background-position: top right;
     background-size: contain;
@@ -454,4 +456,29 @@ footer {
 .copyright a {
     text-decoration: none;
     color: #fff;
+}
+
+#scroll-to-top {
+    position: fixed;
+    width: 50px;
+    height: 58px;
+    bottom: 50px;
+    right: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #8d1731;
+    font-size: xx-small;
+}
+
+.button-top a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
 }
