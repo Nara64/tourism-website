@@ -18,7 +18,7 @@ header {
 .topline {
     background: rgba(127, 143, 166, 1);
     width: 100%;
-    height: 3rem;
+    height: 3.7rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -29,6 +29,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    gap: 0.5rem;
 }
 
 .language a:hover {
@@ -65,7 +66,7 @@ header {
     text-decoration: none;
 }
 
-.group a:hover {
+.group a:hover, .social a:hover, .star a:hover, .user a:hover {
     transform: scale(1.2);
 }
 
@@ -219,6 +220,16 @@ nav ul li a {
     margin-bottom: 1rem;
     color: white;
     font-family: 'Baloo Chettan 2';
+    overflow: hidden;
+}
+
+.container1 img, .container2 img {
+    width: 600px;
+    transition: transform .3s;
+}
+
+.container1 img:hover, .container2 img:hover {
+    transform: scale(1.1);
 }
 
 .text1 a, .text2 a, .text3 a, .text4 a {
@@ -274,7 +285,7 @@ nav ul li a {
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
-
+    font-size: x-large;
 }
 
 .phonebis, .mapbis, .brochurebis, .lieselbis {
@@ -285,7 +296,6 @@ nav ul li a {
 
 .phone2 a, .map2 a, .brochure a, .liesel a {
     font-family: 'Noto Sans JP', sans-serif;
-    line-height: 1.8;
     padding: 0 10px;
     font-size: 1rem;
     text-align: center;
@@ -293,6 +303,7 @@ nav ul li a {
     background-color: white;
     text-decoration: none;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .map2 {
@@ -300,6 +311,7 @@ nav ul li a {
     margin-left: 35rem;
     margin-top: 7rem;
     position: absolute;
+    text-align: center;
 }
 
 .brochure {
@@ -307,6 +319,7 @@ nav ul li a {
     margin-left: 55rem;
     margin-top: 7rem;
     position: absolute;
+    text-align: center;
 }
 
 .liesel {
@@ -314,6 +327,7 @@ nav ul li a {
     margin-left: 68rem;
     margin-top: 2rem;
     position: absolute;
+    text-align: center;
 }
 
 /*instagram*/
