@@ -493,4 +493,32 @@ footer {
 
 html {
     scroll-behavior: smooth;
+<<<<<<< Updated upstream
 }
+=======
+}
+
+@media screen and (max-width: 480px) {
+    .menu {
+        display: block;
+    }
+    .panoramic, .topline, .script, .container1 {
+        width: 160%;
+    }
+    .phone, .logo, .star {
+        content-visibility: hidden;
+    }
+    nav ul { 
+        justify-content: left;
+  }
+    nav ul li a {
+        font-size: 100%;
+    }
+
+    .news-title, .news-paragraph, {
+        margin-left: 50%;
+        font-size: 120%;
+    }
+
+    
+>>>>>>> Stashed changes
