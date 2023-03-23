@@ -499,10 +499,10 @@ html {
     .menu {
         display: block;
     }
-    .panoramic, .topline, .script, .container1 {
+    .panoramic, .topline, .script, .container1, .container2, .banner-trip {
         width: 160%;
     }
-    .phone, .logo, .star {
+    .phone, .logo, .map, .star, .liesel {
         content-visibility: hidden;
     }
     nav ul { 
@@ -515,6 +515,23 @@ html {
     .news-title, .news-paragraph {
         margin-left: 50%;
         font-size: 120%;
+    }
+
+    .banner-trip {
+        justify-content: left;
+        font-size: 10%;
+    }
+
+    .phone2 {
+        margin-left: 0rem;
+    }
+
+    .map2 {
+        margin-left: 20rem;
+    }
+
+    .brochure {
+        margin-left: 35rem;
     }
 }
     
