@@ -495,21 +495,22 @@ html {
     scroll-behavior: smooth;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) and (max-width:767px){
     .menu {
         display: block;
+        width: 100%;
     }
-    .panoramic, .topline, .script, .container1, .container2, .banner-trip {
-        width: 160%;
+    .panoramic, .topline, .script, .container1, .container2, .banner-trip, .carousel1 {
+        width: 100%;
     }
-    .phone, .logo, .map, .star, .liesel {
+    .phone, .logo, .map, .star, .liesel, .button, #scroll-to-top {
         content-visibility: hidden;
     }
     nav ul { 
         justify-content: left;
     }
     nav ul li a {
-        font-size: 100%;
+        font-size: 2vw;
     }
 
     .news-title, .news-paragraph {
@@ -523,15 +524,24 @@ html {
     }
 
     .phone2 {
-        margin-left: 0rem;
+        margin-left: 0%;
     }
 
     .map2 {
-        margin-left: 20rem;
+        margin-left: 40%;
     }
 
     .brochure {
-        margin-left: 35rem;
+        margin-left: 80%;
+    }
+
+    .carousel1, .carousel2 {
+        margin-left: 0px;
+    }
+
+    .carousel1 img, .carousel2 img {
+        width: 15vw;
+        height: 10vh;
     }
 }
     
